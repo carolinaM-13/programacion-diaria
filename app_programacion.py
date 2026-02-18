@@ -54,7 +54,7 @@ if st.session_state.labores:
 
     # --- Botón de descarga ---
     towrite = io.BytesIO()
-    df.to_excel(towrite, index=False, engine='xlsxwriter')
+    df.to_excel(towrite, index=False, engine='openpyxl')
     towrite.seek(0)
 
     st.download_button(
@@ -63,6 +63,7 @@ if st.session_state.labores:
         file_name="programacion_diaria.xlsx",
         mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
     )
+
 
 
 
