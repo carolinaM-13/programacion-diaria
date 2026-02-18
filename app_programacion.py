@@ -6,36 +6,54 @@ st.title("PROGRAMACIÓN DIARIA DE LABORES")
 
 # --- LISTAS PERSONALIZABLES ---
 
+lista_cabos = [
+    "CAROLINA MORA",
+    "LUIS GARCIA",
+    "DIANA ROJAS",
+    "JORGE MARTINEZ"
+]
+
+lista_contratistas = [
+    "CONTRATISTA A",
+    "CONTRATISTA B",
+    "CONTRATISTA C"
+]
+
 lista_labores = [
-    "SIEMBRA MEC",
-    "CORTE MEC",
+    "SIEMBRA MECÀNICA",
+    "CORTE MECÀNICO",
+    "CORTE MANUAL",
     "SIEMBRA MANUAL",
-    "FERTILIZACIÓN",
-    "RIEGO",
-    "CONTROL MALEZA"
+    "DESCEPADA 1",
+    "DESCEPADA 2",
+    "NIVELACIÒN",
+    "SUBSUELO",
+    "RASTROARADO",
+    "RASTRILLO",
+    "SURCO"
 ]
 
 lista_operadores = [
-    "JUAN PEREZ",
-    "PEDRO LOPEZ",
-    "CARLOS RAMIREZ",
-    "ANDRES GOMEZ"
+    "JUAN",
+    "PABLO",
+    "JAMES",
+    "ESCOBAR"
 ]
 
 lista_equipos = [
-    "COSECHADORA 1",
-    "TRACTOR 5",
-    "SEMBRADORA 3",
-    "RETRO 2"
+    "COSECHADORA 9467",
+    "TRACTOR 7401",
+    "SEMBRADORA 1002",
+    "TRACTOR 7402"
 ]
 
-lista_turnos = ["DÍA", "NOCHE"]
+lista_turnos = ["50", "51", "63"]
 
 # --- DATOS GENERALES ---
 
 st.subheader("Datos Generales")
 
-cabo = st.text_input("Cabo Responsable").upper()
+cabo = st.selectbox("Cabo Responsable", lista_cabos)
 hacienda = st.text_input("Hacienda").upper()
 suerte = st.text_input("Suerte").upper()
 fecha = st.date_input("Fecha", date.today())
@@ -52,7 +70,7 @@ area = st.number_input("Área Programada", min_value=0.0)
 operador = st.selectbox("Operador", lista_operadores)
 equipo = st.selectbox("Equipo", lista_equipos)
 turno = st.selectbox("Turno", lista_turnos)
-contratista = st.text_input("Contratista").upper()
+contratista = st.selectbox("Contratista", lista_contratistas)
 
 if st.button("Agregar Labor"):
     nueva_labor = {
@@ -76,5 +94,4 @@ if st.session_state.labores:
     if st.button("Guardar en Excel"):
         df.to_excel("programacion_diaria.xlsx", index=False)
         st.success("Archivo guardado correctamente")
-
 
