@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "active-venture-487822-r8",
+  "private_key_id": "242486e7734a489b1f62a7c45e606d52f6ccd8e9",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDatdHJIxXoeTJd\nW6ouRl64bQmxfUAgzNM0s/8/tKgiiFr0GHaBkgV75oyBNzwylYxdU6xQKmvQvr4J\nny8va6VmVN70hPn3sB0d2O9bZmf96txwxAsMkNsWYTQZE/F6oKajRh/EblWhq54E\n/bz+6/HQzcxdAYeg8WMcdiznfF+ME/yOl2ka+D9Vv4VqXMNcAmVPsXlxBWisoq5a\nSgcZkIUUwLm3bAhc1VUvU74Y85Dd3IDa8JvzHGzA0HwxDdDBaEj8XoUuiDySiQW4\n+eO6Swh9fL2GWk9vYAK+kpJtWZcm5NNvd/YS0TRc4PTreB5J6gQrIzY4E7ihqt9z\nenVAUWfjAgMBAAECggEAKwgUDyWKlXNnH+w9px4sW9AEVLomiG2Ubq2tnnyuiiDW\n+GjpxCOVVaPuaCwUeYVoGSKx6BH4pZkp7d22nHdrEx/GwEh7oCq0B9/bdFnJQzHX\nDo7b96x2lsgoRnjgjbaXIs/Ux0LIMWeBT00XRvboXKNpPrFi3J0x2XM88YzMhdQ5\nqnoKQ1HPGChXc4NyulvjSGqp/IR1pPnTeo0sm3RqBOpY35vIULhdM73HXV9Rs8i9\nmfsPgYwLV/9K5NRulhjfkMI+cJgmtyCsy9Ib9dzUxYh24W3RAFuZkvmyNLMGTsaE\nl4OVh1rp5NbJdE/usm/Xo+EZ/u+VZ83q57BPLLgxSQKBgQD3tp/csMMi0EO7TEaQ\nf9EM7fMkoTe5Ivqml9ovJpuZBV8xFxk5CJ0K4GOM/wGUBRc4sSpaIf7K3/+e4KRj\nDaM53hL/Xgf7xn2eN4j8oVm5B/pWDy5/kfxa3XI/Bm5t+CzxM6GRurg6hfBFoaLf\np/uWwHvowX1wU6HFY/IkHcxrSwKBgQDiBtElr6S1j+1/c6CP9Ohwzi8XO5Qv3JMl\nOXSEENXw/LOaHjYBCrqXAALmzAHKHoRQVqFKT95zcztwmq/cNzriyv5rAXAYoMaz\n+yoM2WpxgqXN9gA3GWJi8mIqhBawekYi2yNLGglyE62aphgXSSBOv6QohnLHGdgr\nO1W2mF8+yQKBgEJiO6ct6615uJ0KDOMOjdx0LDPFzKQdvqREj6ERLKOub9s9AHJr\nX4KZrbQMZsTfNGDqAZqT/68opl1SgFtXPUX1wIuVDHipseJjqZ9iMiRHAgxsFx7y\n5XkIXWSMea2Y05p0JrliG5r7Z++RKI/deavlu48dw1sF3pWCelK5dZ3PAoGBAK7j\nIW8sgaBulhB40jKxCC1IjA1I7zc9T6mM1EffkvpdPUaxu42A1LFDs/sKvRO8Gxri\nfPg35mKkNcjCF/Kn1WtoMAVx3l9f/3+Bhp7cl0zvDwXXI4F+pa7z5tsIy1mPsrcD\nokJZChf3e+teOuPBlDr6c7VbmnHN4IJK7d5T9dZpAoGBAMAQu0LPnpe0/nBsviy+\ns2Cu4Cdrvq1UIBUR4w67YIOhfCXuUKDQWEoXLWodx3p4JM2zy9GIAmzhyWvfPotN\notJpWZGUYa7XDIWkd+/+ydH7DaxcfN8nj4JGUdQ3DPURpc5s50fe32+I8bWVebGF\nkEk/8vxic3xNaWfcVsg+1vhW\n-----END PRIVATE KEY-----\n",
+  "client_email": "streamlitapp@active-venture-487822-r8.iam.gserviceaccount.com",
+  "client_id": "116314943884297540724",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/streamlitapp%40active-venture-487822-r8.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
