@@ -7,16 +7,20 @@ st.title("PROGRAMACIÓN DIARIA DE LABORES")
 # --- LISTAS PERSONALIZABLES ---
 
 lista_cabos = [
-    "CAROLINA MORA",
-    "LUIS GARCIA",
-    "DIANA ROJAS",
-    "JORGE MARTINEZ"
+    "CARLOS PEREZ",
+    "YAINER ESCOBAR",
+    "JAMES RODRIGUEZ",
+    "MARLON ALARCON",
+    "YERSON GUERRERO",
+    "ANDRES ZAMBRANO"
 ]
 
 lista_contratistas = [
-    "CONTRATISTA A",
-    "CONTRATISTA B",
-    "CONTRATISTA C"
+    "QUINCORA",
+    "SOCIEDAD AZCÀRATE",
+    "AMEZQUITA",
+    "MANUELITA",
+    "SERVIAGRÌCOLA MENDEZ"
 ]
 
 lista_labores = [
@@ -94,4 +98,5 @@ if st.session_state.labores:
     if st.button("Guardar en Excel"):
         df.to_excel("programacion_diaria.xlsx", index=False)
         st.success("Archivo guardado correctamente")
+
 
